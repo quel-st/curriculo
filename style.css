@@ -1,0 +1,106 @@
+body {
+    /* texto centralizado*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    max-width: 960px;
+    margin: auto;
+    background-color: #0078aa;
+    
+}
+h1 {
+    font-size: 3em;
+    letter-spacing: 0.6em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    
+    
+}
+h2 {
+    font-size: 1.5em;
+    padding-bottom: .5em;
+    border-radius: 50px ;
+    width: 70%;
+    padding-top: .5em;
+    letter-spacing: 0.2em;
+    text-align: center;
+    margin-left: 60px;
+    background-color: #3ab4f2;
+
+}
+.titulo{
+   
+    color: white;
+    text-shadow: 4px 2px 2px black;
+}
+.sobremim, .trabalho, .habilidade{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.contato, .projetos{
+    margin-left: 50px;
+    
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.profissao{
+    font-size: 20px;
+    text-align: center;
+    background-color: aliceblue;
+    height: 50px;
+    padding-top:1em;
+    border-radius: 50px;
+}
+
+main {
+    display: grid;
+    /* colunas */
+    grid-template-columns: 40% 60%;
+    margin-top: 3em;
+    background-color: aliceblue;
+    border-radius: 150px 150px;
+}
+header {
+    text-align: center;
+    margin: auto 2em;
+    
+}
+section {
+    margin: auto 4em; 
+    text-align: center;
+}
+i {
+    margin-right: .5em;
+    
+}
+p {
+    margin: 0.5em;
+    text-align: justify;
+    
+    
+}
+hr {
+    border: none;
+    height: 1px;
+    background-color: black;
+    
+
+}
+
+#mainLeft {
+    border-right: 1px solid rgb(6, 6, 6);
+    
+}
+header {
+    background-color: #0078aa;
+}
+
+a {
+    text-decoration:none;
+    color: black;
+}
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
